@@ -1,5 +1,5 @@
 import "./skillsItems.css";
-import Skills from "/assets/images/skills/skillsItems.png";
+import Skills from "../../assets/images/skills/skillsItems.png";
 
 export default function SkillsItems() {
   return (

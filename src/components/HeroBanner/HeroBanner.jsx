@@ -1,5 +1,5 @@
 import "./heroBanner.css";
-import toggle from "/assets/images/hero/toggle.avif";
+import toggle from "../../assets/images/hero/toggle.avif";
 
 export default function HeroBanner() {
   return (
@@ -7,7 +7,11 @@ export default function HeroBanner() {
       <section className="hero-banner">
         <div className="hero-banner-info">
           <div className="front-end">
-            <h2>Fr<img src={toggle} alt="" />nt-End</h2>
+            <h2>
+              Fr
+              <img src={toggle} alt="" />
+              nt-End
+            </h2>
           </div>
           <h3>SOFTWARE</h3>
           <h4>DEVELOPER</h4>

@@ -1,3 +1,8 @@
+import pomodoroImage from "../../assets/images/pomodoro/pomodoro.png";
+import kasaImage from "../../assets/images/kasa/kasa.png";
+import argentBankImage from "../../assets/images/argentBank/argentBank.png";
+import parisArtImage from "../../assets/images/parisArt/parisArt.webp";
+
 import "./featuredWork.css";
 
 const projects = [
@@ -5,21 +10,21 @@ const projects = [
     title: "POMODORO",
     description: "A WEB App to optimize your time when you are working ! :)",
     category: ["WEB", "REACT"],
-    imageUrl: "/assets/images/pomodoro/pomodoro.png",
+    imageUrl: pomodoroImage,
     backgroundPosition: "center",
   },
   {
     title: "KASA",
     description: "A WEB APP developed to rent a house like AirBnB.",
     category: ["WEB", "REACT"],
-    imageUrl: "/assets/images/kasa/kasa.png",
+    imageUrl: kasaImage,
     backgroundPosition: "center",
   },
   {
     title: "ARGENT.BANK",
     description: "A Back-End Project with a CRUD for the users of Argent Bank.",
     category: ["CRUD", "REACT"],
-    imageUrl: "/assets/images/argentBank/argentBank.png",
+    imageUrl: argentBankImage,
     backgroundPosition: "center",
   },
   {
@@ -27,7 +32,7 @@ const projects = [
     description:
       "A Symfony Project with a CRUD for a Gallery of Art (Fictive).",
     category: ["CRUD", "SYMFONY"],
-    imageUrl: "/assets/images/parisArt/parisArt.webp",
+    imageUrl: parisArtImage,
     backgroundPosition: "center",
   },
 ];
