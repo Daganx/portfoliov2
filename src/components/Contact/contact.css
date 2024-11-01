@@ -1,0 +1,23 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.contact p:first-child {
+  font-size: 5rem;
+  font-family: "Venona";
+}
+
+.contact p:nth-child(2) {
+  font-size: 5rem;
+  color: #fd601a;
+  font-family: "Venona";
+}
+
+.contact a {
+  cursor: pointer;
+  font-size: 1.3rem;
+}

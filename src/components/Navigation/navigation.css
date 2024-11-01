@@ -1,0 +1,24 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.navigation h1 {
+  font-size: 14px;
+}
+
+.navigation-links ul {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation-socials ul {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation-links a {
+  cursor: pointer;
+}

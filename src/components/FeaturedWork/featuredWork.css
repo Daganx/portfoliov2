@@ -1,0 +1,79 @@
+.featured-work {
+  text-align: center;
+  margin: 4rem;
+}
+
+.featured-work h2 {
+  font-size: 12rem;
+  font-family: "Venona";
+  letter-spacing: 2px;
+}
+
+.featured-work-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.featured-work-item {
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  overflow: hidden;
+}
+
+.featured-work-item.full-width {
+  grid-column: 1 / -1;
+}
+
+.featured-work-image {
+  height: 500px;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+}
+
+.featured-work-info {
+  padding: 16px;
+  text-align: left;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.project-description {
+  font-size: 1rem;
+  margin: 8px 0;
+  color: #555;
+}
+
+.project-category {
+  display: flex;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.project-category li {
+  background-color: #eee;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.footer ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer li {
+  border: 2px solid black;
+  padding: 10px 15px;
+  border-radius: 25px;
+}

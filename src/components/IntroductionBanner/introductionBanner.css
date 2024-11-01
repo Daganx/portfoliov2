@@ -1,0 +1,8 @@
+.introduction-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem;
+}

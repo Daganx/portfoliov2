@@ -1,0 +1,46 @@
+.hero-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  font-size: 3rem;
+}
+
+.hero-banner-info {
+  text-align: left;
+}
+
+.front-end {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.front-end img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.hero-banner-info h2 {
+  font-family: "Offbit";
+  font-size: 181px;
+}
+
+.hero-banner-info h3 {
+  font-family: "Venona";
+  font-size: 181px;
+  color: #fd601a;
+  letter-spacing: -2px;
+}
+
+.hero-banner-info h4 {
+  font-family: "Venona";
+  font-size: 181px;
+  letter-spacing: 5px;
+}
+
+.hero-banner-info h5 {
+  text-align: center;
+  font-size: 16px;
+}

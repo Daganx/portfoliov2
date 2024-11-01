@@ -1,0 +1,13 @@
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-list {
+  width: 90vw;
+}
+
+.skills-list img {
+  width: 100%;
+}
