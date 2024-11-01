@@ -7,8 +7,7 @@ export default function HeroBanner() {
       <section className="hero-banner">
         <div className="hero-banner-info">
           <div className="front-end">
-            <h2>Front-End</h2>
-            <img src={toggle} alt="" />
+            <h2>Fr<img src={toggle} alt="" />nt-End</h2>
           </div>
           <h3>SOFTWARE</h3>
           <h4>DEVELOPER</h4>

@@ -18,7 +18,7 @@ export default function Footer() {
               GITHUB
             </a>
           </li>
-          <li>SOURCE CODE</li>
+          <li><a href="https://github.com/Daganx/portfoliov2" target="newblank">SOURCE CODE</a> </li>
         </ul>
         <p>
           2024. DL<br></br>Back to Top

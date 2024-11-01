@@ -25,6 +25,8 @@
 .hero-banner-info h2 {
   font-family: "Offbit";
   font-size: 181px;
+  display: flex;
+  align-items: center;
 }
 
 .hero-banner-info h3 {
