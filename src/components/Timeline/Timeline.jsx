@@ -27,7 +27,7 @@ const projects = [
   },
   {
     year: "2024/05",
-    title: "KASA - Projet React",
+    title: "Kasa - Projet React",
     type: "Case Study",
     color: "orange",
   },
@@ -45,19 +45,22 @@ const projects = [
   },
   {
     year: "2023-2024",
-    title: "License professionnelle Développeur d'applications JavaScript/React (Niv.6) - OpenClassRooms",
+    title:
+      "License professionnelle Développeur d'applications JavaScript/React (Niv.6) - OpenClassRooms",
     type: "View Gallery",
     color: "purple",
   },
   {
     year: "2023/06",
-    title: "Gallery Art - Projet d'évaluation du titre professionnel développeur Web et Web Mobile",
+    title:
+      "Gallery Art - Projet d'évaluation du titre professionnel développeur Web et Web Mobile",
     type: "View Gallery",
     color: "purple",
   },
   {
     year: "2022-2023",
-    title: "Titre professionnel Développeur WEB et WEB Mobile (Niv.5) - Talis Périgueux",
+    title:
+      "Titre professionnel Développeur WEB et WEB Mobile (Niv.5) - Talis Périgueux",
     type: "View Gallery",
     color: "purple",
   },

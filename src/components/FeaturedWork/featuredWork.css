@@ -12,7 +12,7 @@
 .featured-work-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 100px;
 }
 
 .featured-work-item {
@@ -51,7 +51,6 @@
 
 .project-description {
   font-size: 1rem;
-  margin: 8px 0;
   color: #555;
 }
 
@@ -76,4 +75,12 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+#featured-work > div > div:nth-child(2) > div.featured-work-info {
+  height: 200px;
+}
+
+#featured-work > div > div:nth-child(3) > div.featured-work-info {
+  height: 200px;
 }

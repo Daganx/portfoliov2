@@ -3,32 +3,30 @@ import "./featuredWork.css";
 const projects = [
   {
     title: "POMODORO",
-    description:
-      "A Job Search Platform expected to Serve 1M Active Users in the US Market",
+    description: "A WEB App to optimize your time when you are working ! :)",
     category: ["WEB", "REACT"],
-    imageUrl: "/assets/images/pomodoro/pomodoro.webp",
-    backgroundPosition: "top",
+    imageUrl: "/assets/images/pomodoro/pomodoro.png",
+    backgroundPosition: "center",
   },
   {
     title: "KASA",
-    description:
-      "AR Pay uses Augmented Reality based apps to deliver AR payment to connect with virtual",
-    category: ["AR", "UNITY"],
+    description: "A WEB APP developed to rent a house like AirBnB.",
+    category: ["WEB", "REACT"],
     imageUrl: "/assets/images/kasa/kasa.png",
     backgroundPosition: "center",
   },
   {
     title: "ARGENT.BANK",
-    description: "Allows Users Globally to add Tokens on store Assets",
-    category: ["BLOCKCHAIN", "REACT"],
-    imageUrl: "/assets/images/argentBank/argentBank.webp",
+    description: "A Back-End Project with a CRUD for the users of Argent Bank.",
+    category: ["CRUD", "REACT"],
+    imageUrl: "/assets/images/argentBank/argentBank.png",
     backgroundPosition: "center",
   },
   {
-    title: "PARIS.ART",
+    title: "GALLERY.ART",
     description:
-      "Empowered 500K Users with 24-Hour Fitness Tracking and Goal Setting",
-    category: ["APP", "NODE"],
+      "A Symfony Project with a CRUD for a Gallery of Art (Fictive).",
+    category: ["CRUD", "SYMFONY"],
     imageUrl: "/assets/images/parisArt/parisArt.webp",
     backgroundPosition: "center",
   },

@@ -6,3 +6,9 @@
   font-size: 3rem;
   margin: 2rem;
 }
+
+.introduction-date{
+  border: 2px solid black;
+  padding: 8px 16px;
+  border-radius: 25px;
+}
