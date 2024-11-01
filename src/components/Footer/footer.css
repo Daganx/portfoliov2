@@ -14,4 +14,13 @@
   border: 2px solid black;
   padding: 10px 15px;
   border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.footer a {
+  cursor: pointer;
+}
+
+.footer li:hover {
+  background-color: #fd601a;
 }

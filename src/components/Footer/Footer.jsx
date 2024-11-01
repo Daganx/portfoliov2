@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import "./footer.css";
 
 export default function Footer() {
@@ -18,10 +19,17 @@ export default function Footer() {
               GITHUB
             </a>
           </li>
-          <li><a href="https://github.com/Daganx/portfoliov2" target="newblank">SOURCE CODE</a> </li>
+          <li>
+            <a href="https://github.com/Daganx/portfoliov2" target="newblank">
+              SOURCE CODE
+            </a>{" "}
+          </li>
         </ul>
         <p>
-          2024. DL<br></br>Back to Top
+          2024. DL<br></br>
+          <Link to="navigation" smooth={true} duration={1000}>
+            Back to Top ↑
+          </Link>
         </p>
       </div>
     </>

@@ -9,7 +9,7 @@ const projects = [
   },
   {
     year: "2024/10",
-    title: "Obtention License professionnel développeur d'applications",
+    title: "Obtention Licence professionnel développeur d'applications",
     type: "Case Study",
     color: "orange",
   },
@@ -46,7 +46,7 @@ const projects = [
   {
     year: "2023-2024",
     title:
-      "License professionnelle Développeur d'applications JavaScript/React (Niv.6) - OpenClassRooms",
+      "Licence professionnelle Développeur d'applications JavaScript/React (Niv.6) - OpenClassRooms",
     type: "View Gallery",
     color: "purple",
   },

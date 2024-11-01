@@ -16,7 +16,8 @@ export default function HeroBanner() {
           <h3>SOFTWARE</h3>
           <h4>DEVELOPER</h4>
           <h5>
-            Open to <span>new job offers 🟩</span>
+            <span className="poppins-bold">Open to </span>
+            <span className="poppins-light">new job offers 🟩</span>
           </h5>
         </div>
       </section>

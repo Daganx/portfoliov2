@@ -1,3 +1,12 @@
+@keyframes slideUpFadeIn {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 .hero-banner {
   display: flex;
   flex-direction: column;
@@ -5,6 +14,7 @@
   justify-content: center;
   height: 90vh;
   font-size: 3rem;
+  animation: slideUpFadeIn 2s ease-out;
 }
 
 .hero-banner-info {

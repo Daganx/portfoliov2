@@ -8,36 +8,37 @@ import "./featuredWork.css";
 const projects = [
   {
     title: "POMODORO",
-    description: "A WEB App to optimize your time when you are working ! :)",
-    category: ["WEB", "REACT"],
+    description: "A WEB App to optimize your time when you are working ! ⏰",
+    category: ["• WEB", "• REACT"],
     imageUrl: pomodoroImage,
     backgroundPosition: "center",
   },
   {
     title: "KASA",
-    description: "A WEB APP developed to rent a house like AirBnB.",
-    category: ["WEB", "REACT"],
+    description: "A WEB APP developed to rent a house like AirBnB. 🏠",
+    category: ["• WEB", "• REACT"],
     imageUrl: kasaImage,
     backgroundPosition: "center",
   },
   {
     title: "ARGENT.BANK",
-    description: "A Back-End Project with a CRUD for the users of Argent Bank.",
-    category: ["CRUD", "REACT"],
+    description:
+      "A Back-End Project with a CRUD for the users of Argent Bank. 🏦",
+    category: ["• CRUD", "• REACT"],
     imageUrl: argentBankImage,
     backgroundPosition: "center",
   },
   {
     title: "GALLERY.ART",
     description:
-      "A Symfony Project with a CRUD for a Gallery of Art (Fictive).",
-    category: ["CRUD", "SYMFONY"],
+      "A Symfony Project with a CRUD for a Gallery of Art (Fictive). 🎨",
+    category: ["• CRUD", "• SYMFONY"],
     imageUrl: parisArtImage,
     backgroundPosition: "center",
   },
 ];
 
-function FeaturedWork() {
+export default function FeaturedWork() {
   return (
     <section className="featured-work" id="featured-work">
       <h2>Featured Work</h2>
@@ -64,7 +65,7 @@ function FeaturedWork() {
                   <li key={i}>{cat}</li>
                 ))}
               </ul>
-              <button>View project</button>
+              <button className="featured-work-button">View project</button>
             </div>
           </div>
         ))}
@@ -72,5 +73,3 @@ function FeaturedWork() {
     </section>
   );
 }
-
-export default FeaturedWork;

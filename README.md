@@ -48,41 +48,36 @@ Ce portfolio présente mes projets de formation réalisés tout au long de mon p
 
 2. **Installer les dependances**
 
-    ```bash
-    npm install
-    # ou
-    yarn install
-    ```
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
 
 3. **Lancer le projet**
 
-    ```bash
-    npm run dev
-    # ou
-    yarn dev
-    ```
+   ```bash
+   npm run dev
+   # ou
+   yarn dev
+   ```
 
 4. **Build de production**
 
-    ```bash
-    npm run build
-    # ou 
-    yarn build
-    ```
+   ```bash
+   npm run build
+   # ou
+   yarn build
+   ```
 
 5. **Visualiser le build**
 
-    ```bash
-    npm run preview
-    # ou
-    yarn preview 
-    ```
+   ```bash
+   npm run preview
+   # ou
+   yarn preview
+   ```
 
-### Auteur 
+### Auteur
 
 Dagan LETOT
-
-
-
-
-

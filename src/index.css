@@ -1,6 +1,25 @@
 @font-face {
   font-family: "Poppins";
   src: url("./assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins-bold";
+  src: url("./assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Poppins-light";
+  src: url("./assets/fonts/Poppins/Poppins-Light.ttf");
+  font-weight: 100;
+}
+.poppins-bold {
+  font-family: "Poppins-bold";
+  font-weight: 800;
+}
+.poppins-light {
+  font-family: "Poppins-light";
+  font-weight: 100;
 }
 @font-face {
   font-family: "Offbit";

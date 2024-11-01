@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 16px;
+  margin-top: 1rem;
 }
 
 .navigation h1 {
@@ -21,4 +22,17 @@
 
 .navigation-links a {
   cursor: pointer;
+  transition: font-size 0.3s ease;
+}
+
+.navigation-socials a {
+  transition: font-size 0.3s ease;
+}
+
+.navigation-links li:hover {
+  font-size: 18px;
+}
+
+.navigation-socials a:hover {
+  font-size: 18px;
 }

@@ -3,7 +3,7 @@ import "./navigation.css";
 
 export default function Navigation() {
   return (
-    <nav className="navigation">
+    <nav className="navigation" id="navigation">
       <h1>DAGAN LETOT</h1>
       <div className="navigation-links">
         <ul>
