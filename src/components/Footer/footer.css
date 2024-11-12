@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.footer ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer li {
+  border: 2px solid black;
+  padding: 10px 15px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.footer a {
+  cursor: pointer;
+}
+
+.footer li:hover {
+  background-color: #fd601a;
+}
+
+@media (max-width: 1024px) {
+  /* Masquer le titre et les liens sociaux */
+  .footer p {
+    display: none;
+  }
+  .footer {
+    justify-content: center;
+  }
+}

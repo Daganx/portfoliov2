@@ -1,0 +1,49 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.introduction-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem;
+  animation: slideInFromLeft 2s ease-out forwards;
+  opacity: 0;
+}
+
+.introduction-date {
+  border: 2px solid black;
+  padding: 8px 16px;
+  border-radius: 25px;
+}
+
+@media (max-width: 1024px) {
+  .introduction-banner {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .introduction-banner {
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .introduction-banner p {
+    width: 80%;
+  }
+  .introduction-date {
+    border: none;
+    padding: 0;
+  }
+}

@@ -1,0 +1,113 @@
+@keyframes bond {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fffcf3;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  height: 90%;
+  max-height: 90vh;
+  position: relative;
+  text-align: center;
+  animation: bond 0.6s ease forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow-y: auto;
+}
+
+.modal-title {
+  font-size: 12rem;
+  font-family: "Venona";
+}
+
+.modal-close {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.modal-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 2rem;
+}
+
+.modal-image-presentation {
+  border-radius: 20px;
+  border: 2px solid black;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-description {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.modal-image {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-content h3 {
+  text-align: justify;
+}
+
+.modal-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 1024px) {
+  .modal-description {
+    flex-direction: column;
+  }
+  .modal-image {
+    width: 100%;
+  }
+  .modal-content h3 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .modal-image {
+    display: none;
+  }
+}

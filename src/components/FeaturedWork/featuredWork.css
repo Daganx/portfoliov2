@@ -1,0 +1,112 @@
+.featured-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.featured-work > h2 {
+  font-size: 12rem;
+  font-family: "Venona";
+  letter-spacing: 2px;
+}
+
+.featured-work-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin: 16px;
+}
+
+.featured-work-item {
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  overflow: hidden;
+}
+
+.featured-work-item.full-width {
+  grid-column: 1 / -1;
+}
+
+.featured-work-image {
+  height: 670px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.featured-work-info {
+  padding: 16px;
+  text-align: left;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.project-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: "Venona";
+}
+
+.project-description {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.project-category {
+  display: flex;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.project-category li {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-family: "Venona";
+}
+
+.featured-work-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  color: #fff;
+  border: 1px solid rgb(5, 5, 5);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.featured-work-button:hover {
+  background-color: #fd601a;
+  transition: background-color 0.3s ease;
+}
+
+#featured-work > div > div:nth-child(2) > div.featured-work-info {
+  height: 250px;
+}
+
+#featured-work > div > div:nth-child(3) > div.featured-work-info {
+  height: 250px;
+}
+
+/* MediaQueries Tablet */
+@media (max-width: 1024px) {
+  .featured-work h2 {
+    font-size: 8rem;
+  }
+  .featured-work-grid {
+    grid-template-columns: 1fr;
+    width: 80%;
+  }
+}
+/* MediaQueries Mobile*/
+@media (max-width: 768px) {
+  .featured-work h2 {
+    font-size: 4rem;
+  }
+}

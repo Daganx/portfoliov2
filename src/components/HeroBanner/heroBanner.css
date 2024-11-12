@@ -1,0 +1,118 @@
+@keyframes slideUpFadeIn {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes scaleUpDown {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.green-scale {
+  display: inline-block;
+  animation: scaleUpDown 2s ease-in-out infinite;
+}
+
+.hero-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  animation: slideUpFadeIn 2s ease-out;
+}
+
+.hero-banner-info {
+  text-align: left;
+}
+
+.front-end {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.front-end img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.hero-banner-info h2 {
+  font-family: "Offbit";
+  font-size: 181px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-banner-info h3 {
+  font-family: "Venona";
+  font-size: 181px;
+  color: #fd601a;
+  letter-spacing: -2px;
+}
+
+.hero-banner-info h4 {
+  font-family: "Venona";
+  font-size: 181px;
+  letter-spacing: 5px;
+}
+
+.hero-banner-info h5 {
+  text-align: center;
+  font-size: 16px;
+}
+
+/* MediaQueries Tablet */
+
+@media (max-width: 1024px) {
+  .hero-banner {
+    padding: 0;
+  }
+
+  .hero-banner-info {
+    text-align: center;
+  }
+
+  .front-end {
+    justify-content: center;
+    gap: 0;
+  }
+
+  .hero-banner-info h2 {
+    font-size: 124px;
+  }
+
+  .hero-banner-info h3 {
+    font-size: 124px;
+  }
+  .hero-banner-info h4 {
+    font-size: 124px;
+  }
+}
+
+/* MediaQueries Mobile */
+
+@media (max-width: 768px) {
+  .hero-banner-info h2 {
+    font-size: 64px;
+  }
+  .hero-banner-info h3 {
+    font-size: 64px;
+  }
+  .hero-banner-info h4 {
+    font-size: 64px;
+    letter-spacing: 0;
+  }
+  .front-end img {
+    object-fit: cover;
+    height: 100px;
+  }
+}

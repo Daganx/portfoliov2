@@ -1,0 +1,48 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  margin: 2rem;
+}
+
+.navigation h1 {
+  font-size: 14px;
+}
+
+.navigation-links ul {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation-socials ul {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation-links a {
+  cursor: pointer;
+  transition: font-size 0.3s ease;
+}
+
+.navigation-socials a {
+  transition: font-size 0.3s ease;
+}
+
+.navigation-links li:hover {
+  font-size: 18px;
+}
+
+.navigation-socials a:hover {
+  font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+  .navigation h1,
+  .navigation-socials {
+    display: none;
+  }
+  .navigation {
+    justify-content: center;
+  }
+}

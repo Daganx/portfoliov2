@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins-bold";
+  src: url("./assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Poppins-light";
+  src: url("./assets/fonts/Poppins/Poppins-Light.ttf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Offbit";
+  src: url("./assets/fonts/Offbit/OffBitTrial-DotBold.otf");
+}
+@font-face {
+  font-family: "Venona";
+  src: url("./assets/fonts/Venona/Venona-Regular.otf");
+}
+
+.poppins-bold {
+  font-family: "Poppins-bold";
+  font-weight: 800;
+}
+.poppins-light {
+  font-family: "Poppins-light";
+  font-weight: 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  list-style: none;
+  font-family: "Poppins";
+  color: rgb(5, 5, 5);
+}
+
+html {
+  background-color: #fffcf3;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}

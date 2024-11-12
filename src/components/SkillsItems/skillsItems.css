@@ -1,0 +1,16 @@
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-list img {
+  width: 100%;
+  padding: 2rem;
+}
+/* MediaQueries Tablet */
+@media (max-width: 1024px) {
+  .skills-list img {
+    padding: 2rem;
+  }
+}
