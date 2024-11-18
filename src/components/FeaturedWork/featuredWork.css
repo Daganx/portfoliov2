@@ -128,13 +128,13 @@
 }
 
 .desktop-image {
-  background-color: #141212;
+  background-color: #141414;
 }
 .mobile-image {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #141212;
+  background-color: #141414;
 }
 
 /* MediaQueries Tablet */

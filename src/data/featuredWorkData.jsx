@@ -33,8 +33,7 @@ const featuredWorks = [
   {
     id: "argentBank",
     title: "ARGENT.BANK",
-    description:
-      "A Back-End Project with for the users of Argent Bank. 🏦",
+    description: "A Back-End Project with for the users of Argent Bank. 🏦",
     descriptionModal:
       "ArgentBank is a web application developed as part of the OpenClassrooms curriculum, designed to simulate a secure online banking platform. Built with React and Redux, the app enables users to authenticate, view, and manage their bank account details. ArgentBank demonstrates core principles of secure authentication, state management, and the development of a polished, user-centric financial application.ArgentBank implements secure login and logout functionality, requiring users to sign in to access their account details.",
     category: ["• CRUD", "• REACT"],
