@@ -19,9 +19,11 @@ export default function Contact() {
       observer.observe(contactRef.current);
     }
 
+    const currentRef = contactRef.current;
+
     return () => {
-      if (contactRef.current) {
-        observer.unobserve(contactRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);

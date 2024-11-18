@@ -32,16 +32,20 @@
 .timeline__year {
   font-size: 1rem;
   color: #333;
-  flex: 1;
+  flex-basis: 15%;
+  text-align: left;
 }
 
 .timeline__project {
   font-size: 1.2rem;
   color: #333;
-  flex: 3;
+  flex-basis: 65%;
+  text-align: left;
 }
 
 .timeline__button {
+  flex-basis: 11%;
+  text-align: center;
   padding: 5px 15px;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -57,7 +61,7 @@
 }
 
 .timeline__button.black {
-  background-color: #333;
+  background-color: rgb(5, 5, 5);
 }
 
 .timeline__button.blue {
@@ -78,5 +82,18 @@
 @media (max-width: 768px) {
   .timeline {
     margin: 16px;
+  }
+  .timeline__item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline__year,
+  .timeline__project,
+  .timeline__button {
+    flex-basis: auto;
+    text-align: left;
+    margin-bottom: 5px;
+    text-align: center;
   }
 }

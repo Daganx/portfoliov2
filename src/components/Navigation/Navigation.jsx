@@ -27,7 +27,7 @@ export default function Navigation() {
       <div className="navigation-socials">
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/daganletot" target="newblank">
+            <a href="https://www.linkedin.com/in/letotdagan/" target="newblank">
               LINKEDIN
             </a>
           </li>
