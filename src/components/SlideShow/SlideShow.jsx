@@ -1,16 +1,28 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
+import ProjectModal from "../Modal/Modal";
 
-function Slideshow({ project, isFullWidth }) {
+export default function Slideshow({ project, isFullWidth }) {
   const [isMobileImage, setIsMobileImage] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [imageUrl, setImageUrl] = useState(project.imageUrl);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setIsMobileImage((prev) => !prev);
+      setImageUrl(isMobileImage ? project.imageMobileUrl : project.imageUrl);
     }, 3000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [isMobileImage, project.imageMobileUrl, project.imageUrl]);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
   return (
     <div className={`featured-work-item ${isFullWidth ? "full-width" : ""}`}>
@@ -22,9 +34,7 @@ function Slideshow({ project, isFullWidth }) {
           isMobileImage ? "mobile-image" : "desktop-image"
         }`}
         style={{
-          backgroundImage: `url(${
-            isMobileImage ? project.imageMobileUrl : project.imageUrl
-          })`,
+          backgroundImage: `url(${imageUrl})`,
         }}
       ></div>
       <div className="featured-work-info">
@@ -35,8 +45,15 @@ function Slideshow({ project, isFullWidth }) {
             <li key={i}>{cat}</li>
           ))}
         </ul>
-        <button className="featured-work-button">View project</button>
+        <button className="featured-work-button" onClick={openModal}>
+          View project
+        </button>
       </div>
+      <ProjectModal
+        project={project}
+        isOpen={isModalOpen}
+        closeModal={closeModal}
+      />
     </div>
   );
 }
@@ -45,5 +62,3 @@ Slideshow.propTypes = {
   project: PropTypes.object.isRequired,
   isFullWidth: PropTypes.bool.isRequired,
 };
-
-export default Slideshow;

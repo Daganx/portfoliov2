@@ -1,11 +1,11 @@
-import pomodoroImage from "../assets/images/pomodoro/pomodoro.png";
-import pomodoroMImage from "../assets/images/pomodoro/pomodoroMobile.png";
-import kasaImage from "../assets/images/kasa/kasa.png";
-import kasaMImage from "../assets/images/kasa/kasaMobile.png";
-import argentBankImage from "../assets/images/argentBank/argentBank.png";
-import argentBankMImage from "../assets/images/argentBank/argentbankMobile.png";
-import parisArtImage from "../assets/images/parisArt/parisArt.png";
-import parisArtMImage from "../assets/images/parisArt/parisArtMobile.png";
+import pomodoroImage from "../assets/images/pomodoro/pomodoro.avif";
+import pomodoroMImage from "../assets/images/pomodoro/pomodoroMobile.avif";
+import kasaImage from "../assets/images/kasa/kasa.avif";
+import kasaMImage from "../assets/images/kasa/kasaMobile.avif";
+import argentBankImage from "../assets/images/argentBank/argentBank.avif";
+import argentBankMImage from "../assets/images/argentBank/argentbankMobile.avif";
+import parisArtImage from "../assets/images/parisArt/parisArt.avif";
+import parisArtMImage from "../assets/images/parisArt/parisArtMobile.avif";
 
 const featuredWorks = [
   {

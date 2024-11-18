@@ -7,7 +7,7 @@ import Navigation from "./components/Navigation/Navigation";
 import Timeline from "./components/Timeline/Timeline";
 import SkillsItems from "./components/SkillsItems/SkillsItems";
 
-function App() {
+export default function App() {
   return (
     <>
       <Navigation />
@@ -21,5 +21,3 @@ function App() {
     </>
   );
 }
-
-export default App;

@@ -1,6 +1,6 @@
 import "./skillsItems.css";
-import SkillsImage from "../../assets/images/skills/skillsItems.png";
-import SkillsImageMobile from "../../assets/images/skills/skillsItemsMobile.png";
+import SkillsImage from "../../assets/images/skills/skillsItems.avif";
+import SkillsImageMobile from "../../assets/images/skills/skillsItemsMobile.avif";
 import { useEffect, useState } from "react";
 
 export default function SkillsItems() {
