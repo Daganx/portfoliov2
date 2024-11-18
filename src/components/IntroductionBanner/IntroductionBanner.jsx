@@ -5,7 +5,7 @@ export default function IntroductionBanner() {
     <>
       <div className="introduction-banner">
         <p>
-          Hi ! I'm <span className="poppins-bold">Dagan 👋</span>, a French 🇫🇷
+          Hi ! I&apos;m <span className="poppins-bold">Dagan 👋</span>, a French 🇫🇷
           Software Developer since{" "}
           <span className="introduction-date poppins-bold">2022</span> Focused
           on design and building digital products 💻. <br></br> If you are

@@ -10,7 +10,7 @@ export default function Footer() {
         </p>
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/daganletot" target="newblank">
+            <a href="https://www.linkedin.com/in/letotdagan/" target="newblank">
               LINKEDIN
             </a>
           </li>
