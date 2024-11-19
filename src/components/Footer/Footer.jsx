@@ -6,21 +6,34 @@ export default function Footer() {
     <>
       <div className="footer">
         <p>
-          Developed By<br></br> Dagan Letot
+          Developed By
+          <br /> Dagan Letot
         </p>
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/letotdagan/" target="newblank">
+            <a
+              href="https://www.linkedin.com/in/letotdagan/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               LINKEDIN
             </a>
           </li>
           <li>
-            <a href="https://www.github.com/daganx" target="newblank">
+            <a
+              href="https://www.github.com/daganx"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GITHUB
             </a>
           </li>
           <li>
-            <a href="https://github.com/Daganx/portfoliov2" target="newblank">
+            <a
+              href="https://github.com/Daganx/portfoliov2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               CODE
             </a>{" "}
           </li>

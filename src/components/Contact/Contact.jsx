@@ -7,31 +7,26 @@ export default function Contact() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-          observer.disconnect();
-        }
+        entry.isIntersecting && (
+          entry.target.classList.add("visible"),
+          observer.disconnect()
+        );
       },
-      { threshold: 0.5 }
+      { threshold: 0.5, root: null }
     );
 
-    if (contactRef.current) {
-      observer.observe(contactRef.current);
-    }
+    const element = contactRef.current;
+    element && observer.observe(element);
 
-    const currentRef = contactRef.current;
-
-    return () => {
-      if (currentRef) {
-        observer.unobserve(currentRef);
-      }
-    };
+    return () => element && observer.unobserve(element);
   }, []);
 
   return (
     <div className="contact" id="contact" ref={contactRef}>
-      <p>INTERESTED IN</p>
-      <p>WORKING TOGETHER ?</p>
+      <>
+        <p>INTERESTED IN</p>
+        <p>WORKING TOGETHER?</p>
+      </>
       <p>Contact me:</p>
       <a href="mailto:dagan.letot@icloud.com">dagan.letot@icloud.com</a>
     </div>

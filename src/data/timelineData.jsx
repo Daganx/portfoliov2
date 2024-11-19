@@ -7,7 +7,8 @@ const projects = [
   },
   {
     year: "2024/10",
-    title: "Obtaining a Professional License in Application Development with OpenClassRooms",
+    title:
+      "Obtaining a Professional License in Application Development with OpenClassRooms",
     type: "Degree",
     color: "blue",
   },
