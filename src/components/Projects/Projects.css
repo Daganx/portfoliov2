@@ -1,0 +1,112 @@
+.featured-work {
+  margin-top: 1rem;
+  font-size: 10rem;
+  text-align: center;
+  font-family: "Venona";
+  color: #fd601a;
+}
+
+.projects-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.projects-grid {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 16px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background-color: rgb(5, 5, 5);
+  position: relative;
+  z-index: 1;
+}
+.project-reactwithdagan,
+.project-download-cleanup,
+.project-temp-cleanup,
+.project-kasa,
+.project-argent-bank,
+.project-pomodoro,
+.project-in-build {
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.project-reactwithdagan:hover,
+.project-download-cleanup:hover,
+.project-temp-cleanup:hover,
+.project-kasa:hover,
+.project-argent-bank:hover,
+.project-pomodoro:hover,
+.project-in-build:hover {
+  transform: scale(1.02);
+}
+
+.project-reactwithdagan {
+  grid-column: span 4;
+  grid-row: span 4;
+  background-color: #fffcf3;
+  background-image: url("../../assets/images/reactWithDagan/ReactWithDagan.png");
+}
+.project-download-cleanup {
+  grid-column: span 2;
+  grid-row: span 4;
+  background-color: #fd601a;
+  background-image: url("../../assets/images/download_cleanup/download_cleanup.png");
+}
+.project-temp-cleanup {
+  grid-column: span 2;
+  grid-row: span 4;
+  background-color: #b5253a;
+  background-image: url("../../assets/images/temp_cleanup/temp_cleanup.png");
+}
+.project-kasa {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #fad02c;
+  background-image: url("../../assets/images/kasa/kasa.png");
+  background-size: cover;
+}
+.project-argent-bank {
+  grid-column: span 2;
+  grid-row: span 6;
+  background-color: #fffcf3;
+  background-image: url("../../assets/images/argentBank/argent_bank.png");
+}
+.project-pomodoro {
+  grid-column: span 2;
+  grid-row: span 4;
+  background-color: #f4f6fc;
+  background-image: url("../../assets/images/pomodoro/pomodoro.png");
+}
+.project-in-build {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #fffcf3;
+  background-image: url("../../assets/images/inBuild/inBuild.png");
+  background-size: cover;
+}
+
+@media (max-width: 1024px) {
+  .featured-work {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .featured-work {
+    font-size: 4rem;
+  }
+}
